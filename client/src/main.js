@@ -1,5 +1,6 @@
 import { sync } from 'vuex-router-sync';
 import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
 
 import Vue from 'vue';
 import App from './App.vue';
