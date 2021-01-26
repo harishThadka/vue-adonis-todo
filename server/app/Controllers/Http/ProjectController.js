@@ -29,7 +29,7 @@ class ProjectController {
         return project;
     }
 
-    async destroy({ auth, request, params }) {
+    async destroy({ auth, params }) {
 
         // console.log("-------destroy controller");
         const user = await auth.getUser();
